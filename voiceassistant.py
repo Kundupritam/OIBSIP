@@ -65,9 +65,10 @@ def main():
                tell_time()
             elif "date" in text:
                 tell_date()
-            elif "what" in text or "who" in text or "where" in text:
+            else:
                text=text+"answer in 2 or 3 lines"
                ask_gemini(text)
 
 if __name__=="__main__":
     main()
+
