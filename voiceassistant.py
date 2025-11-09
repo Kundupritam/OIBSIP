@@ -56,19 +56,18 @@ def main():
         
         text=listen()
         if 'stop' in text :
-            speak("bye!")
+            speak("Alright, see you next time!")
             active=False
         else:
             if "hello" in text or "hi" in text:
-                speak("hi! i am here to help you")
+                speak("hi sir ! i am here to help you")
             elif "time" in text:
                tell_time()
             elif "date" in text:
                 tell_date()
             else:
-               text=text+"answer in 2 or 3 lines"
-               ask_gemini(text)
+                text=text+"answer in 2 or 3 lines"
+                ask_gemini(text)
 
 if __name__=="__main__":
     main()
-
