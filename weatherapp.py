@@ -27,10 +27,11 @@ def get_weather(city_name,api_key):
 #taking input of cit_name from user
 def main():
     print("=== Simple Weather App ===")
-    api_key = "2d5570568d1df0f33be23bc4ef400f93" 
+    api_key = "my_api_key" 
     city = input("Enter city name: ")
     get_weather(city, api_key)
 
 if __name__ == "__main__":
     main()
+
 
