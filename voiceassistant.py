@@ -5,7 +5,8 @@ import pyttsx3
 import datetime
 
 #configureing api key
-genai.configure(api_key="AIzaSyCt9Fdk-AGhg3bR454MiHZbo0Lz3MagtaI")
+genai.configure(api_key="AIzaSyCt9Fdk-AGhg3bR454MiHZbo0Lz3MagtaI")   #API key disposed – generate a new one if needed
+
 
 #for listening the user command
 def listen():
@@ -71,3 +72,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
